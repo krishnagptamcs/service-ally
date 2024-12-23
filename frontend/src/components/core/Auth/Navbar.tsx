@@ -27,8 +27,8 @@ const Navbar = () => {
 
   return (
     <>
-      <section className="bg-blue-500 p-3">
-        <div className="flex items-center justify-between">
+      <section className="bg-blue-500 p-3 ">
+        <div className="flex items-center justify-between  w-11/12 mx-auto">
           {/* Logo */}
           <div>Service ally</div>
 
