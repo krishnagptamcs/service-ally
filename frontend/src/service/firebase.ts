@@ -7,17 +7,6 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
-//Configuration of service ally
-// const firebaseConfig = {
-//   apiKey: "AIzaSyDsg2eg2ueXQ9g78Hl3nt52b3fubavowUU",
-//   authDomain: "service-ally-bc52c.firebaseapp.com",
-//   projectId: "service-ally-bc52c",
-//   storageBucket: "service-ally-bc52c.firebasestorage.app",
-//   messagingSenderId: "820981124284",
-//   appId: "1:820981124284:web:a7d8903dc646f8be8a94b9",
-//   measurementId: "G-M74E9VN4XQ"
-// };
-
 //Configuration of parampra store
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
