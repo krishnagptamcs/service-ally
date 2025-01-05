@@ -25,7 +25,9 @@ const UserBtn = () => {
   //Lgout handler
   const handleLogout = () => {
     signOut();
-    localStorage.removeItem("authToken"); // Clear the token from localStorage
+    // Clear stored data if the user signs out
+    localStorage.removeItem("userData");
+    localStorage.removeItem("authToken");
   };
 
   return (
