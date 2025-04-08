@@ -5,6 +5,7 @@ import axios from "axios";
 import React, { useEffect } from "react";
 import UserBtn from "./User/UserBtn";
 import SignIn from "./SignIn";
+import Link from "next/link";
 
 const Navbar = () => {
   const { user } = useUser();
@@ -59,7 +60,7 @@ const Navbar = () => {
       <section className="bg-blue-500 p-3 ">
         <div className="flex items-center justify-between w-11/12 mx-auto">
           {/* Logo */}
-          <div>Service Ally</div>
+          <Link href={"/"}>Service Ally</Link>
 
           {/* Sign In button */}
           {!isSignedIn ? <SignIn /> : <UserBtn />}
